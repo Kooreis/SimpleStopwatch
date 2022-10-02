@@ -1,11 +1,5 @@
-using System;
-using System.Diagnostics;
-
-class Program
+while (command != "exit")
 {
-    static void Main(string[] args)
-    {
-        Stopwatch stopwatch = new Stopwatch();
-        string command = "";
-    }
+    Console.WriteLine("Enter 'start' to start stopwatch, 'stop' to stop, 'reset' to reset, 'exit' to exit");
+    command = Console.ReadLine();
 }
